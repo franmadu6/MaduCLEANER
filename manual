@@ -1,0 +1,198 @@
+MaduCLEANER
+Es un script de limpieza para debian.Esta diseñado para una mejor y mas comoda optimización de nuestra cpu.
+El script cuenta con :
+                    
+                    --INDICE--
+                    
+    1. Limpieza de cache
+    2. Borra los paquetes huérfanos
+    3. TLP: Aumenta y Optimiza la vida de tu Batería en Linux
+    4. TLP: Configuracion
+        1. Ver la información de la batería"
+        2. Mostrar la configuración"
+        3. Ver los datos de disco"
+        4. Ver los datos del dispositivo PCI (e)"
+        5. Mostrar los datos de la tarjeta gráfica"
+        6. Ver los datos del procesador"
+        7. Ver el estado del dispositivo de radio"
+        8. Mostrar los datos del sistema"
+        9. Ver las temperaturas y la velocidad del ventilador"
+        10. Mostrar datos del dispositivo USB"
+        11. Ver más datos"
+        12. Mostrar advertencias"
+        13. Salir (Menú MaduCLEANER)"
+    5. Antivirus
+    6. Antivirus: Configuracion"
+        1. Actulizar ClamAV"
+        2. Examinar la raiz "
+        3. Examniar un directorio"
+        4. Examinar un archivo"
+        5. Eliminar archivos infectados"
+        6. Salir (Menú MaduCLEANER)"
+    7. Informacion de la memoria y almacenamiento"
+    8. Salir
+    
+-------¿Que es la memoria cache?
+
+La memoria caché es aquel en donde las aplicaciones almacenan los datos temporales. 
+
+--------¿Que son los paquetes huérfanos?
+
+Con el paso del tiempo, conforme la instalación que has hecho de tu distribución se va asentando en tu equipo, y vas instalando y desinstalado aplicaciones y paquetes, tu ordenador se llena de paquetes huérfanos. Estos paquetes huérfanos, no son mas que paquetes que ya no son necesarios. Paquetes que se instalaron en su día para satisfacer una dependencia, tal y como te he indicado en la introducción, y que al desinstalar el paquete padre ya no tienen ninguna misión, han quedado huérfanos, son paquetes huérfanos.
+
+-------TLP:          
+
+
+TLP se ejecuta en todas las marcas de equipos portátiles y se envía con una configuración predeterminada ya ajustada para mantener de manera efectiva y confiable la duración de la batería, por lo que puede fácil de instalarla y usarla.
+
+Consigue el ahorro de energía al permitirle configurar cómo los dispositivos como la CPU, el disco, los USB, los PCI, y otros dispositivo deben utilizar la energía cuando su computadora portátil está funcionando con batería.
+
+Características de TLP
+
+    Es altamente configurable a través de varios parámetros de ahorro de energía.
+    Utiliza tareas de fondo automatizadas.
+    Admite la escala de frecuencia del procesador incluyendo “turbo boost” y “turbo core”.
+    Posee un programador de procesos de consumo de energía para multi-core/hyperthreading
+    Proporciona administración de energía en tiempo de ejecución para dispositivos bus PCI.
+    Ofrece USB autosuspend con lista negra.
+    Admite el modo de ahorro de energía Wifi.
+    Ofrece un nivel avanzado de administración de energía del disco duro.
+    También es compatible con la administración de energía de enlace agresivo SATA (ALPM) y mucho más.
+    
+    
+--------Antivirus ClamAV:
+
+
+Clam AntiVirus es un conjunto de herramientas antivirus de código abierto (GPLv2), diseñado especialmente para el análisis de correo electrónico en las puertas de enlace de correo. Proporciona una serie de utilidades que incluyen un demonio multihilo flexible y escalable, un escáner de línea de comandos y una herramienta avanzada para actualizaciones automáticas de bases de datos. El núcleo del paquete es un motor antivirus disponible en forma de biblioteca compartida.
+
+Caracteristicas
+Capacidades
+ClamAV está diseñado para escanear archivos rápidamente.
+Protección en tiempo real (solo Linux). Nuestro daemon de escaneo admite el escaneo en acceso en las versiones modernas de Linux, incluida la capacidad de bloquear el acceso a archivos hasta que se haya escaneado un archivo.
+ClamAV detecta más de 1 millón de virus, gusanos y troyanos, incluidos los virus de macro de Microsoft Office, el malware para dispositivos móviles y otras amenazas.
+El intérprete de bytecode incorporado le permite a los escritores de firmas de ClamAV crear y distribuir rutinas de detección muy complejas y mejorar de forma remota la funcionalidad del escáner.
+Las bases de datos de firmas firmadas garantizan que ClamAV solo ejecutará definiciones de firmas confiables.
+ClamAV escanea archivos y archivos comprimidos, pero también protege contra bombas de archivos. Las capacidades incorporadas de extracción de archivos incluyen:
+Zip (incluyendo SFX)
+RAR (incluyendo SFX)
+7Zip
+ARJ (incluyendo SFX)
+Alquitrán
+CPIO
+Gzip
+Bzip2
+DMG
+IMG
+ISO 9660
+PKG
+Partición HFS +
+Partición HFSX
+Imagen de disco APM
+Imagen de disco GPT
+Imagen de disco MBR
+XAR
+XZ
+MS OLE2
+Archivos de MS Cabinet (incluyendo SFX)
+MS CHM (HTML compilado)
+Formato de compresión MS SZDD
+BinHex
+SIS (paquetes de SymbianOS)
+AutoIt
+InstallShield
+Admite el análisis de archivos ejecutables de Windows, también conocidos como ejecutables portátiles (PE), ambos de 32/64 bits, incluidos los archivos de PE comprimidos u ofuscados con:
+AsPack
+UPX
+FSG
+Chiquita
+PeSpin
+NsPack
+wwpack32
+MAULLAR
+Upack
+Y0da Cryptor
+Admite archivos ELF y Mach-O (tanto de 32 como de 64 bits)
+Soporta casi todos los formatos de archivo de correo
+El soporte para otros archivos / formatos especiales incluye:
+HTML
+RTF
+PDF
+Archivos cifrados con CryptFF y ScrEnc
+uuencode
+TNEF (winmail.dat)
+Actualizador avanzado de bases de datos con soporte para actualizaciones de scripts, firmas digitales y consultas de versiones de bases de datos basadas en DNS
+Licencia
+ClamAV está licenciado bajo la Licencia Pública General de GNU, Versión 2.
+
+Plataformas soportadas
+Clam AntiVirus es altamente multiplataforma. El equipo de desarrollo no puede probar todos los sistemas operativos, por lo que hemos elegido probar ClamAV utilizando las dos versiones más recientes de Soporte a largo plazo (LTS) de cada uno de los sistemas operativos de escritorio más populares. Nuestros sistemas operativos probados regularmente incluyen:
+
+GNU / Linux
+Ubuntu
+16.04
+18.04
+Debian
+7
+8
+CentOS
+6
+7
+UNIX
+Solaris
+11
+FreeBSD
+10
+11
+Mac OS
+10.13 (Sierra Alta)
+10.14 (Mojave)
+Windows
+7
+10
+Requisitos del sistema recomendados
+Los siguientes requisitos del sistema mínimos son recomendadas para el uso clamscano clamdy clamdscanbinarios con la base de datos estándar de firma ClamAV proporcionado por Cisco.
+
+RAM mínima recomendada:
+
+Edición de servidor FreeBSD y Linux: 1 GiB +
+Edición Linux no-servidor: 2 GiB +
+Windows 7 y 10 de 32 bits: 2 GiB +
+Windows 7 y 10 de 64 bits: 3 GiB +
+macOS: 3 GiB +
+CPU mínima recomendada:
+
+Sistemas FreeBSD y Linux: 1 CPU 2.0 Ghz +
+Windows 7 y 10: 1 CPU 2.0 Ghz +
+OSX: 2 CPUs a 2.0 Ghz +
+Espacio mínimo disponible en el disco duro requerido:
+
+Para la aplicación ClamAV, recomendamos tener 5 GB de espacio libre disponible. Esta recomendación es adicional al espacio en disco recomendado para cada sistema operativo.
+
+Tenga en cuenta : Las pruebas para determinar estos requisitos mínimos se realizaron en sistemas que no ejecutaban otras aplicaciones. Si se están ejecutando otras aplicaciones en el sistema, se requerirán recursos adicionales además de nuestros mínimos recomendados.
+
+Listas de correo y canal de IRC
+Si tiene problemas para instalar o usar ClamAV, intente preguntar en nuestras listas de correo. Hay cuatro listas disponibles:
+
+clamav-anuncia (en) lists.clamav.net
+Información sobre nuevas versiones, moderada.
+Los suscriptores no tienen permitido publicar en esta lista de correo.
+clamav-users (at) lists.clamav.net
+preguntas del usuario
+clamav-devel (at) lists.clamav.net
+discusiones técnicas
+clamav-virusdb (at) lists.clamav.net
+Actualización de la base de datos de anuncios, moderada.
+Puede suscribirse y buscar en los archivos de la lista de correo aquí .
+
+Alternativamente, puede intentar preguntar en el #clamavcanal IRC: inicie su cliente irc favorito y escriba:
+
+    / server irc.freenode.net
+    / únete a #clamav
+Envío de malware nuevo o no detectado
+Si tiene un virus que no es detectado por la versión actual de ClamAV que utiliza las últimas bases de datos de firmas, envíe la muestra para su revisión en nuestro sitio web:
+
+https://www.clamav.net/reports/malware
+
+Del mismo modo, si tiene un archivo benigno que está marcado como un virus y desea informar un falso positivo, envíe la muestra para su revisión en nuestro sitio web:
+
+https://www.clamav.net/reports/fp
